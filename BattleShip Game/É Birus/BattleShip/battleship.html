@@ -1,0 +1,120 @@
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Battleship Game</title>
+      </head>
+      <body>
+        <header>
+          <!--<ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul> -->
+            <div class="intro-text-2">
+                <img src="/images/source.gif" alt="">
+              <h1>Battleship Game</h1>
+              <p>Gustavo Telhada & Luís Oliveira</p>
+              <a href="#page2 "><button type="button" id="intro-btn">Start Game</button></a>
+              
+            </div>
+        </header>
+
+        <section id="section1"></section>
+
+        <section>
+            <div class="page2" id="page2">
+              <h1 id="h1-page2">Let's Begin</h1>
+              <p id="guesses">Guesses: 0</p> 
+
+
+                <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                        <th>F</th>
+                      </tr>
+                     </thead>
+                     <tbody>
+                       <tr>
+                            <td>1</td>
+                            <td class="td-s" id="a1"></td>
+                            <td class="td-s" id="b1"></td>
+                            <td class="td-s" id="c1"></td>
+                            <td class="td-s" id="d1"></td>
+                            <td class="td-s" id="e1"></td>
+                            <td class="td-s" id="f1"></td>
+                         
+                       </tr>
+                       <tr>
+                            <td>2</td>
+                            <td class="td-s" id="a2"></td>
+                            <td class="td-s" id="b2"></td>
+                            <td class="td-s" id="c2"></td>
+                            <td class="td-s" id="d2"></td>
+                            <td class="td-s" id="e2"></td>
+                            <td class="td-s" id="f2"></td>
+                         
+                       </tr>
+                       <tr>
+                            <td>3</td>
+                            <td class="td-s" id="a3"></td>
+                            <td class="td-s" id="b3"></td>
+                            <td class="td-s" id="c3"></td>
+                            <td class="td-s" id="d3"></td>
+                            <td class="td-s" id="e3"></td>
+                            <td class="td-s" id="f3"></td>
+                       </tr>
+                       <tr>
+                            <td>4</td>
+                            <td class="td-s" id="a4"></td>
+                            <td class="td-s" id="b4"></td>
+                            <td class="td-s" id="c4"></td>
+                            <td class="td-s" id="d4"></td>
+                            <td class="td-s" id="e4"></td>
+                            <td class="td-s" id="f4"></td>
+                       </tr>
+
+                       <tr>
+                            <td>5</td>
+                            <td class="td-s" id="a5"></td>
+                            <td class="td-s" id="b5"></td>
+                            <td class="td-s" id="c5"></td>
+                            <td class="td-s" id="d5"></td>
+                            <td class="td-s" id="e5"></td>
+                            <td class="td-s" id="f5"></td>
+                       </tr>
+
+                       <tr>
+                            <td>6</td>
+                            <td class="td-s" id="a6"></td>
+                            <td class="td-s" id="b6"></td>
+                            <td class="td-s" id="c6"></td>
+                            <td class="td-s" id="d6"></td>
+                            <td class="td-s" id="e6"></td>
+                            <td class="td-s" id="f6"></td>
+                       </tr>
+                    </tbody>
+                  </table>
+                  
+                  <input type="text" class="form__input" id="name" placeholder="Guess" required="" />
+                  <a class="btn effect04" data-sm-link-text="CLICK" id="btn"><span>Fire</span></a>
+                  <a class="btn effect04" data-sm-link-text="CLICK" id="reset-btn"><span>Reset</span></a>
+
+                
+            </div>
+
+        
+
+        <script src="app.js"></script>
+      </body>
+
+</html>
