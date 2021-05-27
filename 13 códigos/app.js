@@ -1,12 +1,12 @@
 var text
 function BrowserCrash(){
-    var n = prompt("How many pizzas do you want?")
+    var n = prompt("Quantas pizzas queres?")
     while (n != null) {
 
         var i = 1
 
         if (i > n) {
-            alert("You really dont like pizza, huh?");
+            alert("Não gostas de pizza? :(");
             break
             }
         
